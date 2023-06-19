@@ -1,9 +1,9 @@
 public class Employee {
-    private int id;
-    private String name;
-    private String firstName;
-    private String lastName;
-    private double salary;
+    public int id;
+    public String name;
+    public String firstName;
+    public String lastName;
+    public double salary;
 
     public Employee(int id, String name, String firstName, String lastName, double salary) {
         this.id = id;
